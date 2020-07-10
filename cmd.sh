@@ -1,8 +1,8 @@
 #/bin/sh
 
 : ${TRUSTCHAIN=""}
-: ${CERT_LOCATION=/etc/nginx/certs/sedish.net.crt}
-: ${KEY_LOCATION=/etc/nginx/certs/sedish.net.key}
+: ${CERT_LOCATION=/etc/nginx/certs/fullchain.pem}
+: ${KEY_LOCATION=/etc/nginx/certs/privkey.pem}
 : ${SERVER_NAME=localhost}
 : ${DHIS_FWD_PORT=9001}
 : ${OPENEMPI_FWD_PORT=9002}
